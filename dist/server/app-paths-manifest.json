@@ -1,8 +1,0 @@
-{
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/lien-he/page": "app/lien-he/page.js",
-  "/page": "app/page.js",
-  "/phan-khu/page": "app/phan-khu/page.js",
-  "/san-pham/page": "app/san-pham/page.js",
-  "/vi-tri/page": "app/vi-tri/page.js"
-}
