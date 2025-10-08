@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center">
               <Image
-                src="/TayThangLongIcon.png"
+                src="TayThangLongIcon.png"
                 alt="Noble Palace Tay Thang Long Logo"
                 width={147}
                 height={78}
