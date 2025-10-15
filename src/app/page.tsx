@@ -97,15 +97,22 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-amber-900 to-yellow-800 text-white py-12 mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="border-t border-yellow-600 pt-8">
-            <p className="text-yellow-100 text-lg">
-              © 2025 Noble Palace Tay Thang Long. All rights reserved.
-            </p>
-            <p className="text-yellow-200 mt-2">
-              Dự án bất động sản cao cấp tại Tây Thủ Đô
-            </p>
+      <footer id="footer" className="bg-gradient-to-r from-amber-900 to-yellow-800 text-white py-12 mt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="border-t border-yellow-600 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <div className="mb-4 md:mb-0">
+              <p className="text-yellow-200 text-lg">
+                Liên hệ ☏: <a href="tel:0984704988" className="text-yellow-100 hover:text-white transition-colors duration-300">0984 704 988</a>
+              </p>
+            </div>
+            <div className="text-center">
+              <p className="text-yellow-100 text-lg">
+                © 2025 Noble Palace Tay Thang Long. All rights reserved.
+              </p>
+              <p className="text-yellow-200 mt-2">
+                Dự án bất động sản cao cấp tại Tây Thủ Đô
+              </p>
+            </div>
           </div>
         </div>
       </footer>
