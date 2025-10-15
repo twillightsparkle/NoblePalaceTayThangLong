@@ -33,7 +33,7 @@ export default function PhanKhu() {
             </div>
             <div className="text-center">
               <p className="text-yellow-100 text-lg">
-                © 2025 Noble Palace Tay Thang Long. All rights reserved.
+                © 2025 Noble Palace Tay Thang Long.
               </p>
               <p className="text-yellow-200 mt-2">
                 Dự án bất động sản cao cấp tại Tây Thủ Đô
