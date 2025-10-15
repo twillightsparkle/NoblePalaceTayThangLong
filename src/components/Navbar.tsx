@@ -9,8 +9,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
 
-  const handleContactClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
+  const handleContactClick = () => {
     if (pathname === '/') {
       // If on homepage, scroll to footer
       const footer = document.getElementById('footer');
@@ -23,12 +22,7 @@ const Navbar = () => {
     }
   };
 
-  const menuItems = [
-    { name: 'Trang chủ', href: '/' },
-    { name: 'Vị trí', href: '/vi-tri' },
-    { name: 'Phân Khu', href: '/phan-khu' },
-    { name: 'Liên Hệ', href: '/lien-he' },
-  ];
+
 
   const productItems = [
     { name: 'ELEGANT SHOPHOUSE', href: '/san-pham/elegant-shophouse' },
@@ -107,14 +101,13 @@ const Navbar = () => {
                 </div>
               </div>
               
-              <a
-                href="/#footer"
+              <button
                 onClick={handleContactClick}
                 className="text-yellow-100 hover:text-yellow-300 px-3 py-2 text-sm font-medium transition-colors duration-300 relative group cursor-pointer"
               >
                 Liên Hệ
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
-              </a>
+              </button>
             </div>
           </div>
 
@@ -182,16 +175,15 @@ const Navbar = () => {
               ))}
             </div>
             
-            <a
-              href="/#footer"
-              onClick={(e) => {
-                handleContactClick(e);
+            <button
+              onClick={() => {
+                handleContactClick();
                 setIsMenuOpen(false);
               }}
-              className="text-yellow-100 hover:bg-yellow-600 hover:text-white block px-3 py-2 text-base font-medium rounded-md transition-colors duration-300 cursor-pointer"
+              className="text-yellow-100 hover:bg-yellow-600 hover:text-white block px-3 py-2 text-base font-medium rounded-md transition-colors duration-300 cursor-pointer w-full text-left"
             >
               Liên Hệ
-            </a>
+            </button>
           </div>
         </div>
       )}
