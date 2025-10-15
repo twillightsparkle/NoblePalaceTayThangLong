@@ -18,7 +18,7 @@ const Navbar = () => {
       }
     } else {
       // If not on homepage, navigate to homepage and then scroll to footer
-      window.location.href = '/#footer';
+      window.location.href = '/NoblePalaceTayThangLong/#footer';
     }
   };
 
