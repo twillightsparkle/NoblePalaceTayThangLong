@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import Navbar from '@/components/Navbar';
-import Link from 'next/link';
 
 export default function Amenities() {
   return (
@@ -37,7 +37,7 @@ export default function Amenities() {
                     <span className="font-bold"> Đơn vị vận hành thương hiệu Quốc tế là Best Western Hotels & Resorts (BWH)</span> - đơn vị quản lý vận hành 
                     Khách sạn đẳng cấp Quốc tế với lịch sử hơn 70 năm hoạt động trong ngành dịch vụ Khách sạn và hiện diện tại gần 100 quốc gia và vùng lãnh thổ, 
                     danh tiếng toàn cầu, chắc chắn sẽ thoả mãn được mọi nhu cầu khắt khe nhất về tận hưởng tinh hoa, mang tới những trải nghiệm đầy đủ từ nghỉ dưỡng, 
-                    giải trí, ẩm thực… theo mô hình <span className="font-bold">"all in one"</span>.
+                    giải trí, ẩm thực… theo mô hình <span className="font-bold">&quot;all in one&quot;</span>.
                   </p>
                 </div>
               </div>
@@ -46,9 +46,11 @@ export default function Amenities() {
 
           {/* Amenities Image */}
           <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300 mb-16">
-            <img 
+            <Image 
               src="/NoblePalaceTayThangLong/9.png" 
-              alt="Tiện ích tại dự án" 
+              alt="Tiện ích tại dự án"
+              width={1200}
+              height={600}
               className="w-full h-auto object-contain"
             />
           </div>
@@ -155,56 +157,70 @@ export default function Amenities() {
             </h2>
             <div className="space-y-6">
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
-                <img 
+                <Image 
                   src="/NoblePalaceTayThangLong/10.jpg" 
-                  alt="Tiện ích - Hình 1" 
+                  alt="Tiện ích - Hình 1"
+                  width={1200}
+                  height={600}
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
-                <img 
+                <Image 
                   src="/NoblePalaceTayThangLong/11.jpg" 
-                  alt="Tiện ích - Hình 2" 
+                  alt="Tiện ích - Hình 2"
+                  width={1200}
+                  height={600}
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
-                <img 
+                <Image 
                   src="/NoblePalaceTayThangLong/12.jpg" 
-                  alt="Tiện ích - Hình 3" 
+                  alt="Tiện ích - Hình 3"
+                  width={1200}
+                  height={600}
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
-                <img 
+                <Image 
                   src="/NoblePalaceTayThangLong/13.jpg" 
-                  alt="Tiện ích - Hình 4" 
+                  alt="Tiện ích - Hình 4"
+                  width={1200}
+                  height={600}
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
-                <img 
+                <Image 
                   src="/NoblePalaceTayThangLong/14.jpg" 
-                  alt="Tiện ích - Hình 5" 
+                  alt="Tiện ích - Hình 5"
+                  width={1200}
+                  height={600}
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
-                <img 
+                <Image 
                   src="/NoblePalaceTayThangLong/15.jpg" 
-                  alt="Tiện ích - Hình 6" 
+                  alt="Tiện ích - Hình 6"
+                  width={1200}
+                  height={600}
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
-                <img 
+                <Image 
                   src="/NoblePalaceTayThangLong/16.jpg" 
-                  alt="Tiện ích - Hình 7" 
+                  alt="Tiện ích - Hình 7"
+                  width={1200}
+                  height={600}
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
-                <img 
+                <Image 
                   src="/NoblePalaceTayThangLong/17.jpg" 
                   alt="Tiện ích - Hình 8" 
                   className="w-full h-auto object-contain"

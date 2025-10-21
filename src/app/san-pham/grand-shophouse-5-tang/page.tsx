@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 
 export default function GrandShophouse5Tang() {
@@ -26,16 +27,20 @@ export default function GrandShophouse5Tang() {
           <h2 className="text-2xl font-bold text-amber-900 mb-6 text-center">📸 Hình Ảnh Grand Shophouse</h2>
           <div className="space-y-6">
             <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
-              <img 
+              <Image 
                 src="/NoblePalaceTayThangLong/5.jpg" 
-                alt="Grand Shophouse - Hình 1" 
+                alt="Grand Shophouse - Hình 1"
+                width={1200}
+                height={600}
                 className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
-              <img 
+              <Image 
                 src="/NoblePalaceTayThangLong/6.jpg" 
-                alt="Grand Shophouse - Hình 2" 
+                alt="Grand Shophouse - Hình 2"
+                width={1200}
+                height={600}
                 className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
               />
             </div>
