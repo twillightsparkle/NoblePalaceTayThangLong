@@ -23,18 +23,16 @@ export default function TienDo() {
           </div>
 
           {/* Video Section */}
-          <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300 mb-16">
-            <div className="bg-black">
-              <video
-                width="100%"
-                height="auto"
-                controls
-                className="w-full h-auto object-contain max-h-200"
-              >
-                <source src="/NoblePalaceTayThangLong/tiendo.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+          <div className="flex justify-center rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300 mb-16">
+            <iframe
+              width="100%"
+              height="600"
+              src="https://www.youtube.com/embed/YJyx845nrms"
+              title="Noble Palace Tây Thăng Long - Tiến Độ Xây Dựng"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="max-w-sm"
+            ></iframe>
           </div>
 
           {/* Call to Action */}

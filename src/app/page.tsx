@@ -44,14 +44,14 @@ export default function Home() {
             </div>
             <div className="p-8">
               <div className="aspect-video w-full">
-                <video 
-                  controls 
+                <iframe 
                   className="w-full h-full rounded-lg"
-                  poster="/1.jpg"
-                >
-                  <source src="/NoblePalaceTayThangLong/tvc.mp4" type="video/mp4" />
-                  Trình duyệt của bạn không hỗ trợ video.
-                </video>
+                  src="https://www.youtube.com/embed/AbHgreR47No?si=WtsDZvPm_7tjs8pz" 
+                  title="YouTube video player" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerPolicy="strict-origin-when-cross-origin" 
+                  allowFullScreen
+                />
               </div>
             </div>
           </div>

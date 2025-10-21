@@ -47,7 +47,7 @@ export default function Amenities() {
           {/* Amenities Image */}
           <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300 mb-16">
             <img 
-              src="/9.png" 
+              src="/NoblePalaceTayThangLong/9.png" 
               alt="Tiện ích tại dự án" 
               className="w-full h-auto object-contain"
             />
@@ -156,56 +156,56 @@ export default function Amenities() {
             <div className="space-y-6">
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <img 
-                  src="/10.jpg" 
+                  src="/NoblePalaceTayThangLong/10.jpg" 
                   alt="Tiện ích - Hình 1" 
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <img 
-                  src="/11.jpg" 
+                  src="/NoblePalaceTayThangLong/11.jpg" 
                   alt="Tiện ích - Hình 2" 
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <img 
-                  src="/12.jpg" 
+                  src="/NoblePalaceTayThangLong/12.jpg" 
                   alt="Tiện ích - Hình 3" 
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <img 
-                  src="/13.jpg" 
+                  src="/NoblePalaceTayThangLong/13.jpg" 
                   alt="Tiện ích - Hình 4" 
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <img 
-                  src="/14.jpg" 
+                  src="/NoblePalaceTayThangLong/14.jpg" 
                   alt="Tiện ích - Hình 5" 
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <img 
-                  src="/15.jpg" 
+                  src="/NoblePalaceTayThangLong/15.jpg" 
                   alt="Tiện ích - Hình 6" 
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <img 
-                  src="/16.jpg" 
+                  src="/NoblePalaceTayThangLong/16.jpg" 
                   alt="Tiện ích - Hình 7" 
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <img 
-                  src="/17.jpg" 
+                  src="/NoblePalaceTayThangLong/17.jpg" 
                   alt="Tiện ích - Hình 8" 
                   className="w-full h-auto object-contain"
                 />
