@@ -15,84 +15,207 @@ export default function Home() {
             <h1 className="text-4xl sm:text-6xl font-bold text-amber-900 mb-8 leading-tight">
               NOBLE PALACE
               <span className="block text-yellow-600 text-3xl sm:text-5xl mt-2">
-                TAY THANG LONG
+                TÂY THĂNG LONG
               </span>
             </h1>
             
             <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-amber-500 mx-auto mb-8"></div>
-            
-            <p className="text-xl text-amber-800 mb-12 max-w-4xl mx-auto font-medium leading-relaxed">
-              TUYỆT PHẨM NHÀ PHỐ CHÂU ÂU GIỮA LÒNG ĐÔ THỊ PHỒN HOA
-            </p>
           </div>
 
+          {/* Introduction Section */}
+          <div className="mt-12 bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
+            <div className="px-8 py-12">
+              <div className="max-w-4xl mx-auto">
+                <p className="text-lg sm:text-xl text-amber-800 mb-8 leading-relaxed text-justify">
+                  Noble Palace Tây Thăng Long là <span className="font-bold">đô thị thấp tầng hàng hiệu (Branded Residences) đầu tiên của Hà Nội</span>, 
+                  nơi nghệ thuật chạm đến tầm cao, nằm trong bộ sưu tập nhà phố thương mại, biệt thự và dinh thự hàng hiệu Noble Palace của NOBLE Group. 
+                  Dự án cũng là <span className="font-bold">thành phố thông minh tiên phong ứng dụng công nghệ AI tối đa</span> trong quản lý đô thị, 
+                  sánh ngang tầm với những thành phố danh tiếng của thế giới.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* Video Section */}
+          <div className="mt-16 bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
+            <div className="bg-gradient-to-r from-amber-600 to-yellow-500 px-8 py-6">
+              <h2 className="text-2xl sm:text-3xl font-bold text-white text-center">
+                VIDEO GIỚI THIỆU DỰ ÁN
+              </h2>
+            </div>
+            <div className="p-8">
+              <div className="aspect-video w-full">
+                <video 
+                  controls 
+                  className="w-full h-full rounded-lg"
+                  poster="/1.jpg"
+                >
+                  <source src="/NoblePalaceTayThangLong/tvc.mp4" type="video/mp4" />
+                  Trình duyệt của bạn không hỗ trợ video.
+                </video>
+              </div>
+            </div>
+          </div>
+          {/* Image Section */}
+          <div className="mt-16 space-y-8">
+            <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
+              <img 
+                src="/NoblePalaceTayThangLong/1.jpg" 
+                alt="Noble Palace Tây Thăng Long" 
+                className="w-full h-auto object-cover"
+              />
+            </div>
+            
+            <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
+              <img 
+                src="/NoblePalaceTayThangLong/2.jpg" 
+                alt="Noble Palace Tây Thăng Long" 
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
           {/* Project Overview Section */}
           <div className="mt-16 bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
             <div className="bg-gradient-to-r from-amber-600 to-yellow-500 px-8 py-6">
               <h2 className="text-2xl sm:text-3xl font-bold text-white text-center">
-                Tổng quan dự án
+                TỔNG QUAN DỰ ÁN NOBLE PALACE TÂY THĂNG LONG
               </h2>
             </div>
             
             <div className="px-8 py-12">
               <div className="max-w-4xl mx-auto">
-                <h3 className="text-2xl sm:text-3xl font-bold text-amber-900 mb-8 text-center leading-tight">
-                  NOBLE PALACE TAY THANG LONG
-                  <span className="block text-yellow-600 text-xl sm:text-2xl mt-2">
-                    TUYỆT PHẨM NHÀ PHỐ CHÂU ÂU GIỮA LÒNG ĐÔ THỊ PHỒN HOA
-                  </span>
-                </h3>
-                
-                <div className="prose prose-lg max-w-none text-amber-800 leading-relaxed">
-                  <p className="text-lg sm:text-xl mb-6 text-center italic">
-                    Sở hữu vị trí trung tâm khu Tây thủ đô, kết nối trực tiếp với đường nối Hoàng Quốc Việt kéo dài, 
-                    giữa Vành đai 3.5 và Vành đai 4, Noble Palace Tay Thang Long mang đến dòng sản phẩm nhà phố đặc quyền, 
-                    mỗi căn là một &ldquo;di sản sống&rdquo;, vừa để ở, vừa là tài sản thương mại sinh lời bền vững.
-                  </p>
+                {/* Project Details Table */}
+                <div className="space-y-6">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div className="border-l-4 border-yellow-500 pl-4">
+                      <p className="text-sm text-amber-700 font-semibold mb-1">Tên dự án</p>
+                      <p className="text-lg text-amber-900 font-bold">Noble Palace Tây Thăng Long</p>
+                    </div>
+                    <div className="border-l-4 border-yellow-500 pl-4">
+                      <p className="text-sm text-amber-700 font-semibold mb-1">Tổng diện tích đất</p>
+                      <p className="text-lg text-amber-900 font-bold">77 ha</p>
+                    </div>
+                    <div className="border-l-4 border-yellow-500 pl-4">
+                      <p className="text-sm text-amber-700 font-semibold mb-1">Mật độ xây dựng</p>
+                      <p className="text-lg text-amber-900 font-bold">30%</p>
+                    </div>
+                  </div>
+
+                  <div className="border-t-2 border-yellow-200 pt-6">
+                    <p className="text-sm text-amber-700 font-semibold mb-3">Vị trí dự án</p>
+                    <p className="text-amber-900 leading-relaxed">
+                      Mặt đường nối đường Hoàng Quốc Việt kéo dài, xã Tân Lập, huyện Đan Phượng, Hà Nội
+                    </p>
+                  </div>
+
+                  <div className="border-t-2 border-yellow-200 pt-6">
+                    <p className="text-sm text-amber-700 font-semibold mb-3">Chủ đầu tư</p>
+                    <p className="text-amber-900 leading-relaxed">
+                      Liên danh Công ty Cổ phần đầu tư DIA và Công ty Cổ phần Tư vấn Đầu tư thương mại Tân Cương
+                    </p>
+                  </div>
+
+                  <div className="border-t-2 border-yellow-200 pt-6">
+                    <p className="text-sm text-amber-700 font-semibold mb-3">Đơn vị phát triển dự án</p>
+                    <p className="text-amber-900 leading-relaxed">
+                      Công ty cổ phần kinh doanh Bất động sản Noble
+                    </p>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 border-t-2 border-yellow-200 pt-6">
+                    <div>
+                      <p className="text-sm text-amber-700 font-semibold mb-2">Loại hình sản phẩm</p>
+                      <p className="text-amber-900 font-bold">Nhà phố thương mại, Shophouse</p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-amber-700 font-semibold mb-2">Hình thức sở hữu</p>
+                      <p className="text-amber-900 font-bold">Sổ đỏ lâu dài</p>
+                    </div>
+                  </div>
+
+                  <div className="border-t-2 border-yellow-200 pt-6">
+                    <p className="text-sm text-amber-700 font-semibold mb-2">Số lượng sản phẩm</p>
+                    <p className="text-2xl font-bold text-yellow-600">2,448 sản phẩm</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Key Features */}
-          <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl shadow-lg border border-yellow-200 p-8 text-center hover:shadow-xl transition-shadow duration-300">
-              <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-amber-900 mb-4">Vị Trí Đắc Địa</h3>
-              <p className="text-amber-700 leading-relaxed">
-                Trung tâm Tây thủ đô, kết nối thuận tiện với các trục đường chính
-              </p>
-            </div>
+          {/* 4 District Sections */}
+          <div className="mt-20">
+            <h2 className="text-3xl sm:text-4xl font-bold text-amber-900 text-center mb-4">
+              Quy Mô Dự Án: 4 Phân Khu Tinh Hoa
+            </h2>
+            <div className="w-32 h-1 bg-gradient-to-r from-yellow-400 to-amber-500 mx-auto mb-12"></div>
 
-            <div className="bg-white rounded-xl shadow-lg border border-yellow-200 p-8 text-center hover:shadow-xl transition-shadow duration-300">
-              <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
-                </svg>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Legacy */}
+              <div className="bg-white rounded-xl shadow-lg border border-yellow-200 p-8 hover:shadow-xl transition-shadow duration-300">
+                <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-white">A</span>
+                </div>
+                <h3 className="text-2xl font-bold text-amber-900 mb-2 text-center">Phân Khu A</h3>
+                <p className="text-lg font-semibold text-yellow-600 text-center">Legacy</p>
+                <p className="text-amber-700 leading-relaxed mt-4 text-center">
+                  Khu vực tinh tế mang đậm dấu ấn kiến trúc cổ điển, kết hợp hài hòa với hiện đại
+                </p>
               </div>
-              <h3 className="text-xl font-bold text-amber-900 mb-4">Thiết Kế Châu Âu</h3>
-              <p className="text-amber-700 leading-relaxed">
-                Kiến trúc đẳng cấp Châu Âu, sang trọng và tinh tế
-              </p>
-            </div>
 
-            <div className="bg-white rounded-xl shadow-lg border border-yellow-200 p-8 text-center hover:shadow-xl transition-shadow duration-300">
-              <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
-                </svg>
+              {/* Century */}
+              <div className="bg-white rounded-xl shadow-lg border border-yellow-200 p-8 hover:shadow-xl transition-shadow duration-300">
+                <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-white">B</span>
+                </div>
+                <h3 className="text-2xl font-bold text-amber-900 mb-2 text-center">Phân Khu B</h3>
+                <p className="text-lg font-semibold text-yellow-600 text-center">Century</p>
+                <p className="text-amber-700 leading-relaxed mt-4 text-center">
+                  Biểu tượng của sự phát triển bền vững qua các thế kỷ
+                </p>
               </div>
-              <h3 className="text-xl font-bold text-amber-900 mb-4">Đầu Tư Sinh Lời</h3>
-              <p className="text-amber-700 leading-relaxed">
-                Tài sản thương mại sinh lời bền vững, giá trị tăng trưởng cao
-              </p>
+
+              {/* Harmony */}
+              <div className="bg-white rounded-xl shadow-lg border border-yellow-200 p-8 hover:shadow-xl transition-shadow duration-300">
+                <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-white">C</span>
+                </div>
+                <h3 className="text-2xl font-bold text-amber-900 mb-2 text-center">Phân Khu C</h3>
+                <p className="text-lg font-semibold text-yellow-600 text-center">Harmony</p>
+                <p className="text-amber-700 leading-relaxed mt-4 text-center">
+                  Sự hòa hợp giữa con người, thiên nhiên và công nghệ
+                </p>
+              </div>
+
+              {/* Victory */}
+              <div className="bg-white rounded-xl shadow-lg border border-yellow-200 p-8 hover:shadow-xl transition-shadow duration-300">
+                <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-white">D</span>
+                </div>
+                <h3 className="text-2xl font-bold text-amber-900 mb-2 text-center">Phân Khu D</h3>
+                <p className="text-lg font-semibold text-yellow-600 text-center">Victory</p>
+                <p className="text-amber-700 leading-relaxed mt-4 text-center">
+                  Chiến thắng trong mỗi khía cạnh: thiết kế, vị trí, và đầu tư
+                </p>
+              </div>
             </div>
           </div>
+        {/* Image Section */}
+        <div className="mt-16 space-y-8">
+        <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
+          <img 
+          src="/NoblePalaceTayThangLong/3.jpg" 
+          alt="Noble Palace Tây Thăng Long" 
+          className="w-full h-auto object-cover"
+          />
+        </div>
+        
+        <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
+          <img 
+          src="/NoblePalaceTayThangLong/4.jpg" 
+          alt="Noble Palace Tây Thăng Long" 
+          className="w-full h-auto object-cover"
+          />
+        </div>
+        </div>
         </div>
       </main>
 

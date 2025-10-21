@@ -46,6 +46,27 @@ export default function ElegantShophouse() {
           </div>
         </div>
 
+        {/* Elegant Shophouse Images */}
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold text-amber-900 mb-6 text-center">📸 Hình Ảnh Elegant Shophouse</h2>
+          <div className="space-y-6">
+            <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
+              <img 
+                src="/NoblePalaceTayThangLong/7.jpg" 
+                alt="Elegant Shophouse - Hình 1" 
+                className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
+              <img 
+                src="/NoblePalaceTayThangLong/8.jpg" 
+                alt="Elegant Shophouse - Hình 2" 
+                className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </div>
+        </div>
+
         {/* Thiết kế và công năng */}
         <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 p-8 mb-8">
           <div>

@@ -18,7 +18,7 @@ const Navbar = () => {
       }
     } else {
       // If not on homepage, navigate to homepage and then scroll to footer
-      window.location.href = '/NoblePalaceTayThangLong/#footer';
+      window.location.href = '#footer';
     }
   };
 
@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center">
               <Image
-                src="/NoblePalaceTayThangLong/TayThangLongIcon.png"
+                src="/NoblePalaceTayThangLong/logo.png"
                 alt="Noble Palace Tay Thang Long Logo"
                 width={147}
                 height={78}
@@ -67,23 +67,18 @@ const Navbar = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
               </Link>
               
-              <Link
-                href="/phan-khu"
-                className="text-yellow-100 hover:text-yellow-300 px-3 py-2 text-sm font-medium transition-colors duration-300 relative group"
-              >
-                Phân Khu
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
-              </Link>
-              
               {/* Products Dropdown */}
               <div className="relative group">
-                <button className="text-yellow-100 hover:text-yellow-300 px-3 py-2 text-sm font-medium transition-colors duration-300 relative group flex items-center">
+                <Link
+                  href="/san-pham"
+                  className="text-yellow-100 hover:text-yellow-300 px-3 py-2 text-sm font-medium transition-colors duration-300 relative group flex items-center"
+                >
                   Sản Phẩm
                   <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                   </svg>
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
-                </button>
+                </Link>
                 
                 {/* Dropdown Menu */}
                 <div className="absolute left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-yellow-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
@@ -100,6 +95,30 @@ const Navbar = () => {
                   </div>
                 </div>
               </div>
+              
+              <Link
+                href="/tien-ich"
+                className="text-yellow-100 hover:text-yellow-300 px-3 py-2 text-sm font-medium transition-colors duration-300 relative group"
+              >
+                Tiện Ích
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
+              </Link>
+              
+              <Link
+                href="/tien-do"
+                className="text-yellow-100 hover:text-yellow-300 px-3 py-2 text-sm font-medium transition-colors duration-300 relative group"
+              >
+                Tiến Độ
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
+              </Link>
+              
+              <Link
+                href="/chinh-sach"
+                className="text-yellow-100 hover:text-yellow-300 px-3 py-2 text-sm font-medium transition-colors duration-300 relative group"
+              >
+                Chính Sách
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></span>
+              </Link>
               
               <button
                 onClick={handleContactClick}
@@ -152,14 +171,6 @@ const Navbar = () => {
               Vị trí
             </Link>
             
-            <Link
-              href="/phan-khu"
-              className="text-yellow-100 hover:bg-yellow-600 hover:text-white block px-3 py-2 text-base font-medium rounded-md transition-colors duration-300"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Phân Khu
-            </Link>
-            
             {/* Mobile Products Section */}
             <div className="border-t border-yellow-500 pt-2 mt-2">
               <div className="text-yellow-200 px-3 py-2 text-sm font-semibold">Sản Phẩm</div>
@@ -174,6 +185,30 @@ const Navbar = () => {
                 </Link>
               ))}
             </div>
+            
+            <Link
+              href="/tien-ich"
+              className="text-yellow-100 hover:bg-yellow-600 hover:text-white block px-3 py-2 text-base font-medium rounded-md transition-colors duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Tiện Ích
+            </Link>
+            
+            <Link
+              href="/tien-do"
+              className="text-yellow-100 hover:bg-yellow-600 hover:text-white block px-3 py-2 text-base font-medium rounded-md transition-colors duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Tiến Độ
+            </Link>
+            
+            <Link
+              href="/chinh-sach"
+              className="text-yellow-100 hover:bg-yellow-600 hover:text-white block px-3 py-2 text-base font-medium rounded-md transition-colors duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Chính Sách
+            </Link>
             
             <button
               onClick={() => {
