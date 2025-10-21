@@ -126,7 +126,7 @@ export default function ViTri() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-amber-900 to-yellow-800 text-white py-12 mt-20">
+      <footer id="footer" className="bg-gradient-to-r from-amber-900 to-yellow-800 text-white py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="border-t border-yellow-600 pt-8 flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
