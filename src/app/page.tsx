@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 
 export default function Home() {
@@ -58,17 +59,21 @@ export default function Home() {
           {/* Image Section */}
           <div className="mt-16 space-y-8">
             <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
-              <img 
+              <Image 
                 src="/NoblePalaceTayThangLong/1.jpg" 
                 alt="Noble Palace Tây Thăng Long" 
+                width={1200}
+                height={600}
                 className="w-full h-auto object-cover"
               />
             </div>
             
             <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
-              <img 
+              <Image 
                 src="/NoblePalaceTayThangLong/2.jpg" 
                 alt="Noble Palace Tây Thăng Long" 
+                width={1200}
+                height={600}
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -201,17 +206,21 @@ export default function Home() {
         {/* Image Section */}
         <div className="mt-16 space-y-8">
         <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
-          <img 
+          <Image 
           src="/NoblePalaceTayThangLong/3.jpg" 
           alt="Noble Palace Tây Thăng Long" 
+          width={1200}
+          height={600}
           className="w-full h-auto object-cover"
           />
         </div>
         
         <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
-          <img 
+          <Image 
           src="/NoblePalaceTayThangLong/4.jpg" 
           alt="Noble Palace Tây Thăng Long" 
+          width={1200}
+          height={600}
           className="w-full h-auto object-cover"
           />
         </div>
