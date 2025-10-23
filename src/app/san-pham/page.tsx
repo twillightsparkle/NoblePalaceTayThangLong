@@ -87,48 +87,6 @@ export default function Products() {
 
           {/* Two Types of Shophouses */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Grand Shophouse */}
-            <div className="bg-white rounded-2xl shadow-xl border-2 border-yellow-400 overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-              <div className="bg-gradient-to-r from-amber-700 to-yellow-600 px-8 py-8">
-                <h3 className="text-3xl font-bold text-white text-center">
-                  Grand Shophouse
-                </h3>
-              </div>
-              
-              <div className="px-8 py-10">
-                <div className="space-y-6">
-                  <div className="border-l-4 border-yellow-500 pl-4">
-                    <p className="text-sm text-amber-700 font-semibold mb-1">Chiều Cao</p>
-                    <p className="text-2xl font-bold text-amber-900">5 Tầng</p>
-                  </div>
-                  
-                  <div className="border-l-4 border-yellow-500 pl-4">
-                    <p className="text-sm text-amber-700 font-semibold mb-1">Số Lượng Căn</p>
-                    <p className="text-2xl font-bold text-amber-900">952 Căn</p>
-                  </div>
-                  
-                  <div className="border-l-4 border-yellow-500 pl-4">
-                    <p className="text-sm text-amber-700 font-semibold mb-2">Tổng Diện Tích Sàn</p>
-                    <p className="text-lg font-bold text-yellow-600">211m² – 562m²/căn</p>
-                    <p className="text-sm text-amber-700 mt-2">Linh hoạt cho cả sử dụng riêng và kinh doanh</p>
-                  </div>
-
-                  <div className="bg-amber-50 rounded-lg p-4 mt-6 border border-amber-200">
-                    <p className="text-amber-900 font-semibold text-center">
-                      Lý tưởng cho các chủ kinh doanh mong muốn không gian rộng và nhiều tầng sử dụng
-                    </p>
-                  </div>
-                </div>
-
-                <Link 
-                  href="/san-pham/grand-shophouse-5-tang"
-                  className="mt-8 block w-full bg-gradient-to-r from-amber-600 to-yellow-500 hover:from-amber-700 hover:to-yellow-600 text-white font-bold py-3 px-6 rounded-lg text-center transition-all duration-300 transform hover:scale-105"
-                >
-                  Xem Chi Tiết
-                </Link>
-              </div>
-            </div>
-
             {/* Elegant Shophouse */}
             <div className="bg-white rounded-2xl shadow-xl border-2 border-yellow-400 overflow-hidden hover:shadow-2xl transition-shadow duration-300">
               <div className="bg-gradient-to-r from-amber-700 to-yellow-600 px-8 py-8">
@@ -170,6 +128,48 @@ export default function Products() {
                 </Link>
               </div>
             </div>
+            
+            {/* Grand Shophouse */}
+            <div className="bg-white rounded-2xl shadow-xl border-2 border-yellow-400 overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+              <div className="bg-gradient-to-r from-amber-700 to-yellow-600 px-8 py-8">
+                <h3 className="text-3xl font-bold text-white text-center">
+                  Grand Shophouse
+                </h3>
+              </div>
+              
+              <div className="px-8 py-10">
+                <div className="space-y-6">
+                  <div className="border-l-4 border-yellow-500 pl-4">
+                    <p className="text-sm text-amber-700 font-semibold mb-1">Chiều Cao</p>
+                    <p className="text-2xl font-bold text-amber-900">5 Tầng</p>
+                  </div>
+                  
+                  <div className="border-l-4 border-yellow-500 pl-4">
+                    <p className="text-sm text-amber-700 font-semibold mb-1">Số Lượng Căn</p>
+                    <p className="text-2xl font-bold text-amber-900">952 Căn</p>
+                  </div>
+                  
+                  <div className="border-l-4 border-yellow-500 pl-4">
+                    <p className="text-sm text-amber-700 font-semibold mb-2">Tổng Diện Tích Sàn</p>
+                    <p className="text-lg font-bold text-yellow-600">211m² – 562m²/căn</p>
+                    <p className="text-sm text-amber-700 mt-2">Linh hoạt cho cả sử dụng riêng và kinh doanh</p>
+                  </div>
+
+                  <div className="bg-amber-50 rounded-lg p-4 mt-6 border border-amber-200">
+                    <p className="text-amber-900 font-semibold text-center">
+                      Lý tưởng cho các chủ kinh doanh mong muốn không gian rộng và nhiều tầng sử dụng
+                    </p>
+                  </div>
+                </div>
+
+                <Link 
+                  href="/san-pham/grand-shophouse"
+                  className="mt-8 block w-full bg-gradient-to-r from-amber-600 to-yellow-500 hover:from-amber-700 hover:to-yellow-600 text-white font-bold py-3 px-6 rounded-lg text-center transition-all duration-300 transform hover:scale-105"
+                >
+                  Xem Chi Tiết
+                </Link>
+              </div>
+            </div>
           </div>
 
           {/* Call to Action */}
@@ -183,9 +183,9 @@ export default function Products() {
               </p>
               <a 
                 href="tel:0984704988"
-                className="inline-block bg-gradient-to-r from-amber-600 to-yellow-500 hover:from-amber-700 hover:to-yellow-600 text-white font-bold py-4 px-12 rounded-lg transition-all duration-300 transform hover:scale-105"
+                className="inline-block bg-gradient-to-r from-amber-600 to-yellow-500 hover:from-amber-700 hover:to-yellow-600 text-white font-bold py-4 px-12 rounded-lg transition-all duration-300 transform hover:scale-105 whitespace-nowrap"
               >
-                Liên Hệ Ngay: 0984 704 988
+                Liên Hệ Ngay: <span className="inline">0984 704 988</span>
               </a>
             </div>
           </div>

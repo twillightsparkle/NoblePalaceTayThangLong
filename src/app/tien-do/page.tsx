@@ -46,9 +46,9 @@ export default function TienDo() {
               </p>
               <a 
                 href="tel:0984704988"
-                className="inline-block bg-gradient-to-r from-amber-600 to-yellow-500 hover:from-amber-700 hover:to-yellow-600 text-white font-bold py-4 px-12 rounded-lg transition-all duration-300 transform hover:scale-105"
+                className="inline-block bg-gradient-to-r from-amber-600 to-yellow-500 hover:from-amber-700 hover:to-yellow-600 text-white font-bold py-4 px-12 rounded-lg transition-all duration-300 transform hover:scale-105 whitespace-nowrap"
               >
-                Liên Hệ Ngay: 0984 704 988
+                Liên Hệ Ngay: <span className="inline">0984 704 988</span>
               </a>
             </div>
           </div>

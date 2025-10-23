@@ -26,14 +26,13 @@ const Navbar = () => {
 
   const productItems = [
     { name: 'ELEGANT SHOPHOUSE', href: '/san-pham/elegant-shophouse' },
-    { name: 'GRAND SHOPHOUSE 5 TẦNG', href: '/san-pham/grand-shophouse-5-tang' },
-    { name: 'SHOPHOUSE 4 TẦNG', href: '/san-pham/shophouse-4-tang' },
+    { name: 'GRAND SHOPHOUSE', href: '/san-pham/grand-shophouse' },
   ];
 
   return (
     <nav className="bg-gradient-to-r from-amber-900 to-yellow-800 shadow-lg border-b-2 border-yellow-400 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-20 w-full">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center">
@@ -46,6 +45,17 @@ const Navbar = () => {
                 priority
               />
             </Link>
+          </div>
+
+          {/* Phone Contact - Mobile Only */}
+          <div className="md:hidden ml-auto mr-2">
+            <a
+              href="tel:0984704988"
+              className="flex items-center text-yellow-100 hover:text-yellow-300 transition-colors duration-300 font-medium text-sm whitespace-nowrap"
+            >
+              <span className="mr-1">☏</span>
+              <span>0984 704 988</span>
+            </a>
           </div>
 
           {/* Desktop Menu */}

@@ -196,17 +196,17 @@ export default function ElegantShophouse() {
           </div>
 
           <div className="border-t border-white/20 pt-6">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
-              <div className="flex items-center justify-center">
-                <div className="w-3 h-3 bg-green-400 rounded-full mr-2"></div>
+            <div className="flex flex-col gap-4">
+              <div className="flex items-start">
+                <div className="w-3 h-3 bg-green-400 rounded-full mr-3 mt-1 flex-shrink-0"></div>
                 <span>Sổ đỏ lâu dài, bàn giao hoàn thiện tiêu chuẩn hàng hiệu</span>
               </div>
-              <div className="flex items-center justify-center">
-                <div className="w-3 h-3 bg-green-400 rounded-full mr-2"></div>
+              <div className="flex items-start">
+                <div className="w-3 h-3 bg-green-400 rounded-full mr-3 mt-1 flex-shrink-0"></div>
                 <span>Ký HĐMB ngay, giao nhà ngay (từ quý 3/2025)</span>
               </div>
-              <div className="flex items-center justify-center">
-                <div className="w-3 h-3 bg-green-400 rounded-full mr-2"></div>
+              <div className="flex items-start">
+                <div className="w-3 h-3 bg-green-400 rounded-full mr-3 mt-1 flex-shrink-0"></div>
                 <span>Bảng hàng hiện có trên Noble App</span>
               </div>
             </div>
