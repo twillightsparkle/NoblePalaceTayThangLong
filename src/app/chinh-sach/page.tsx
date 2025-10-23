@@ -26,7 +26,7 @@ export default function ChinhSach() {
           {/* Policy Image */}
           <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300 mb-16">
             <Image 
-              src="/NoblePalaceTayThangLong/20.png" 
+              src="/20.png" 
               alt="Chính sách bán hàng"
               width={1200}
               height={600}

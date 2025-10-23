@@ -28,7 +28,7 @@ export default function GrandShophouse() {
           <div className="space-y-6">
             <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
               <Image 
-                src="/NoblePalaceTayThangLong/5.jpg" 
+                src="/5.jpg" 
                 alt="Grand Shophouse - Hình 1"
                 width={1200}
                 height={600}
@@ -37,7 +37,7 @@ export default function GrandShophouse() {
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
               <Image 
-                src="/NoblePalaceTayThangLong/6.jpg" 
+                src="/6.jpg" 
                 alt="Grand Shophouse - Hình 2"
                 width={1200}
                 height={600}

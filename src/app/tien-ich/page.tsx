@@ -47,7 +47,7 @@ export default function Amenities() {
           {/* Amenities Image */}
           <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300 mb-16">
             <Image 
-              src="/NoblePalaceTayThangLong/9.png" 
+              src="/9.png" 
               alt="Tiện ích tại dự án"
               width={1200}
               height={600}
@@ -158,7 +158,7 @@ export default function Amenities() {
             <div className="space-y-6">
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <Image 
-                  src="/NoblePalaceTayThangLong/10.jpg" 
+                  src="/10.jpg" 
                   alt="Tiện ích - Hình 1"
                   width={1200}
                   height={600}
@@ -167,7 +167,7 @@ export default function Amenities() {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <Image 
-                  src="/NoblePalaceTayThangLong/11.jpg" 
+                  src="/11.jpg" 
                   alt="Tiện ích - Hình 2"
                   width={1200}
                   height={600}
@@ -176,7 +176,7 @@ export default function Amenities() {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <Image 
-                  src="/NoblePalaceTayThangLong/12.jpg" 
+                  src="/12.jpg" 
                   alt="Tiện ích - Hình 3"
                   width={1200}
                   height={600}
@@ -185,7 +185,7 @@ export default function Amenities() {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <Image 
-                  src="/NoblePalaceTayThangLong/13.jpg" 
+                  src="/13.jpg" 
                   alt="Tiện ích - Hình 4"
                   width={1200}
                   height={600}
@@ -194,7 +194,7 @@ export default function Amenities() {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <Image 
-                  src="/NoblePalaceTayThangLong/14.jpg" 
+                  src="/14.jpg" 
                   alt="Tiện ích - Hình 5"
                   width={1200}
                   height={600}
@@ -203,7 +203,7 @@ export default function Amenities() {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <Image 
-                  src="/NoblePalaceTayThangLong/15.jpg" 
+                  src="/15.jpg" 
                   alt="Tiện ích - Hình 6"
                   width={1200}
                   height={600}
@@ -212,7 +212,7 @@ export default function Amenities() {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <Image 
-                  src="/NoblePalaceTayThangLong/16.jpg" 
+                  src="/16.jpg" 
                   alt="Tiện ích - Hình 7"
                   width={1200}
                   height={600}
@@ -221,7 +221,7 @@ export default function Amenities() {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
                 <Image 
-                  src="/NoblePalaceTayThangLong/17.jpg" 
+                  src="/17.jpg" 
                   alt="Tiện ích - Hình 8" 
                   width={1200}
                   height={600}

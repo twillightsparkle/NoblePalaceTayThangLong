@@ -53,7 +53,7 @@ export default function ElegantShophouse() {
           <div className="space-y-6">
             <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
               <Image 
-                src="/NoblePalaceTayThangLong/7.jpg" 
+                src="/7.jpg" 
                 alt="Elegant Shophouse - Hình 1"
                 width={1200}
                 height={600}
@@ -62,7 +62,7 @@ export default function ElegantShophouse() {
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
               <Image 
-                src="/NoblePalaceTayThangLong/8.jpg" 
+                src="/8.jpg" 
                 alt="Elegant Shophouse - Hình 2"
                 width={1200}
                 height={600}

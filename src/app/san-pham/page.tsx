@@ -57,7 +57,7 @@ export default function Products() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="rounded-xl overflow-hidden shadow-lg border border-yellow-200 hover:shadow-2xl transition-shadow duration-300">
                 <Image 
-                  src="/NoblePalaceTayThangLong/overall.jpg" 
+                  src="/overall.jpg" 
                   alt="Tổng thể shophouse - Hình 1"
                   width={600}
                   height={400}
@@ -66,7 +66,7 @@ export default function Products() {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border border-yellow-200 hover:shadow-2xl transition-shadow duration-300">
                 <Image 
-                  src="/NoblePalaceTayThangLong/overall2.jpg" 
+                  src="/overall2.jpg" 
                   alt="Tổng thể shophouse - Hình 2"
                   width={600}
                   height={400}
@@ -75,7 +75,7 @@ export default function Products() {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border border-yellow-200 hover:shadow-2xl transition-shadow duration-300">
                 <Image 
-                  src="/NoblePalaceTayThangLong/overall3.jpg" 
+                  src="/overall3.jpg" 
                   alt="Tổng thể shophouse - Hình 3"
                   width={600}
                   height={400}

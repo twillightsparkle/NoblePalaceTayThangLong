@@ -60,7 +60,7 @@ export default function Home() {
           <div className="mt-16 space-y-8">
             <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
               <Image 
-                src="/NoblePalaceTayThangLong/1.jpg" 
+                src="/1.jpg" 
                 alt="Noble Palace Tây Thăng Long" 
                 width={1200}
                 height={600}
@@ -70,7 +70,7 @@ export default function Home() {
             
             <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
               <Image 
-                src="/NoblePalaceTayThangLong/2.jpg" 
+                src="/2.jpg" 
                 alt="Noble Palace Tây Thăng Long" 
                 width={1200}
                 height={600}
@@ -207,7 +207,7 @@ export default function Home() {
         <div className="mt-16 space-y-8">
         <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
           <Image 
-          src="/NoblePalaceTayThangLong/3.jpg" 
+          src="/3.jpg" 
           alt="Noble Palace Tây Thăng Long" 
           width={1200}
           height={600}
@@ -217,7 +217,7 @@ export default function Home() {
         
         <div className="bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
           <Image 
-          src="/NoblePalaceTayThangLong/4.jpg" 
+          src="/4.jpg" 
           alt="Noble Palace Tây Thăng Long" 
           width={1200}
           height={600}

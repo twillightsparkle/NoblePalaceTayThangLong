@@ -26,7 +26,7 @@ export default function ViTri() {
           {/* Overview Image */}
           <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300 mb-16">
             <Image 
-              src="/NoblePalaceTayThangLong/18.jpg" 
+              src="/18.jpg" 
               alt="Vị trí kết nối giao thông"
               width={1200}
               height={600}
@@ -114,7 +114,7 @@ export default function ViTri() {
             </h2>
             <div className="rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300">
               <Image 
-                src="/NoblePalaceTayThangLong/19.jpg" 
+                src="/19.jpg" 
                 alt="Bản đồ vị trí Noble Palace Tây Thăng Long"
                 width={1200}
                 height={600}
