@@ -91,7 +91,7 @@ export default function ChinhSach() {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-amber-900 mb-2">Chiết Khấu Khách Hàng Địa Phương</h3>
-                      <p className="text-amber-700 text-lg">1% chiết khấu cho khách hàng có đăng ký thường trú tại Dân Phượng (cũ)</p>
+                      <p className="text-amber-700 text-lg">1% chiết khấu cho khách hàng có đăng ký thường trú tại Đan Phượng (cũ)</p>
                     </div>
                   </div>
 
@@ -170,7 +170,7 @@ export default function ChinhSach() {
                 </div>
 
                 <p className="text-amber-800 text-lg leading-relaxed mb-6">
-                  Giá bán Noble Palace Tây Thăng Long Dân Phượng sẽ phụ thuộc vào nhiều yếu tố như vị trí, diện tích, hướng nhìn của từng căn hộ. 
+                  Giá bán Noble Palace Tây Thăng Long Đan Phượng sẽ phụ thuộc vào nhiều yếu tố như vị trí, diện tích, hướng nhìn của từng căn hộ. 
                   Các căn liền kề và biệt thự có thể sẽ có mức giá cao hơn do không gian sống rộng rãi và riêng tư hơn.
                 </p>
 
