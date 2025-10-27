@@ -61,7 +61,7 @@ export default function ChinhSach() {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-amber-900 mb-2">Miễn Phí Quản Lý Vận Hành</h3>
-                      <p className="text-amber-700 text-lg">24 tháng miễn phí quản lý vận hành</p>
+                      <p className="text-amber-700 text-lg">24 tháng miễn phí quản lý vận hành chất lượng 5⭐</p>
                     </div>
                   </div>
 
@@ -200,7 +200,7 @@ export default function ChinhSach() {
                 <div className="mb-10">
                   <div className="bg-gradient-to-r from-amber-600 to-yellow-500 px-6 py-4 rounded-t-lg">
                     <h3 className="text-2xl font-bold text-white">
-                      Phương Thức 1: Tiến Độ Chuẩn (Vốn Tự Có)
+                      Tiến độ thanh toán chuẩn bằng vốn tự có
                     </h3>
                   </div>
                   <div className="bg-yellow-50 border border-yellow-200 rounded-b-lg p-6 space-y-3">
@@ -210,19 +210,23 @@ export default function ChinhSach() {
                     </div>
                     <div className="flex items-start">
                       <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
-                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 1:</span> Thanh toán 25% giá trị bất động sản khi ký HĐMB</p>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 1:</span> Thanh toán 15% giá trị BĐS gồm VAT (gồm tiền đặt cọc). Ký HĐMB trong vòng 7 ngày kể từ ngày khách hàng ký TTĐC</p>
                     </div>
                     <div className="flex items-start">
                       <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
-                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 2:</span> Thanh toán 20% giá trị bất động sản sau 30 ngày kể từ ngày ký HĐMB</p>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 2:</span> Thanh toán 10% giá trị BĐS gồm VAT trong vòng 7 ngày kể từ ngày ký HĐMB</p>
                     </div>
                     <div className="flex items-start">
                       <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
-                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 3:</span> Thanh toán 25% giá trị bất động sản sau 60 ngày kể từ ngày ký HĐMB</p>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 3:</span> Thanh toán 20% giá trị BĐS trong vòng 30 ngày kể từ ngày ký HĐMB</p>
                     </div>
                     <div className="flex items-start">
                       <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
-                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 4:</span> Thanh toán 30% giá trị bất động sản và 100% kinh phí bảo trì khi bàn giao nhà <span className="font-semibold">(Dự kiến Quý 2/2026)</span></p>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 4:</span> Thanh toán 25% giá trị BĐS trong vòng 60 ngày kể từ ngày ký HĐMB</p>
+                    </div>
+                    <div className="flex items-start">
+                      <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 5:</span> Thanh toán 30% giá trị BĐS gồm VAT + 100% kinh phí bảo trì theo thông báo bàn giao nhà của CĐT <span className="font-semibold">(Dự kiến Quý 2/2026)</span></p>
                     </div>
                   </div>
                 </div>
@@ -231,7 +235,7 @@ export default function ChinhSach() {
                 <div className="mb-10">
                   <div className="bg-gradient-to-r from-amber-600 to-yellow-500 px-6 py-4 rounded-t-lg">
                     <h3 className="text-2xl font-bold text-white">
-                      Phương Thức 2: Tiến Độ Thanh Toán Sớm
+                      Tiến Độ Thanh Toán Sớm
                     </h3>
                   </div>
                   <div className="bg-yellow-50 border border-yellow-200 rounded-b-lg p-6 space-y-3">
@@ -241,15 +245,19 @@ export default function ChinhSach() {
                     </div>
                     <div className="flex items-start">
                       <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
-                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 1:</span> Thanh toán 30% giá trị bất động sản khi ký HĐMB</p>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 1:</span> Thanh toán 15% giá trị BĐS gồm VAT (gồm tiền đặt cọc). Ký HĐMB trong vòng 7 ngày kể từ ngày khách hàng ký TTĐC</p>
                     </div>
                     <div className="flex items-start">
                       <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
-                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 2:</span> Thanh toán 70% giá trị bất động sản sau 30 ngày kể từ ngày ký HĐMB</p>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 2:</span> Thanh toán 15% giá trị BĐS gồm VAT trong vòng 7 ngày kể từ ngày ký HĐMB</p>
                     </div>
                     <div className="flex items-start">
                       <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
-                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 3:</span> Thanh toán 100% kinh phí bảo trì khi bàn giao nhà <span className="font-semibold">(Dự kiến Quý 2/2026)</span></p>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 3:</span> Thanh toán 70% giá trị BĐS trong vòng 30 ngày kể từ ngày ký HĐMB</p>
+                    </div>
+                    <div className="flex items-start">
+                      <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 4:</span> Thanh toán 100% kinh phí bảo trì theo thông báo bàn giao nhà của CĐT <span className="font-semibold">(Dự kiến Quý 2/2026)</span></p>
                     </div>
                   </div>
                 </div>
@@ -258,7 +266,7 @@ export default function ChinhSach() {
                 <div className="mb-10">
                   <div className="bg-gradient-to-r from-amber-600 to-yellow-500 px-6 py-4 rounded-t-lg">
                     <h3 className="text-2xl font-bold text-white">
-                      Phương Thức 3: Tiến Độ Thanh Toán Vay Vốn Ngân Hàng
+                      Tiến Độ Thanh Toán Vay Vốn Ngân Hàng
                     </h3>
                   </div>
                   <div className="bg-yellow-50 border border-yellow-200 rounded-b-lg p-6 space-y-3">
@@ -268,15 +276,19 @@ export default function ChinhSach() {
                     </div>
                     <div className="flex items-start">
                       <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
-                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 1:</span> Thanh toán 20% giá trị bất động sản khi ký HĐMB</p>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 1:</span> Thanh toán 15% giá trị BĐS gồm VAT (gồm tiền đặt cọc). Ký HĐMB trong vòng 7 ngày kể từ ngày khách hàng ký TTĐC (Khách hàng thanh toán bằng vốn tự có)</p>
                     </div>
                     <div className="flex items-start">
                       <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
-                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 2:</span> Ngân hàng giải ngân 65% giá trị bất động sản sau 30 ngày kể từ ngày ký HĐMB</p>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 2:</span> Thanh toán 10% giá trị BĐS gồm VAT trong vòng 7 ngày kể từ ngày ký HĐMB</p>
                     </div>
                     <div className="flex items-start">
                       <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
-                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 3:</span> Thanh toán 15% giá trị bất động sản và 100% kinh phí bảo trì khi bàn giao nhà <span className="font-semibold">(Dự kiến Quý 2/2026)</span></p>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 3:</span> Ngân hàng giải ngân 70% giá trị BĐS gồm VAT trong vòng 30 ngày kể từ ngày ký HĐMB</p>
+                    </div>
+                    <div className="flex items-start">
+                      <span className="inline-block w-6 h-6 bg-yellow-500 text-white rounded-full text-center text-sm font-bold mr-4 flex-shrink-0">•</span>
+                      <p className="text-amber-800 text-lg"><span className="font-semibold">Đợt 4:</span> Thanh toán 5% giá trị BĐS và 100% kinh phí bảo trì bằng vốn tự có theo thông báo bàn giao nhà của CĐT <span className="font-semibold">(Dự kiến Quý 2/2026)</span></p>
                     </div>
                   </div>
                 </div>

@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Noble Palace Tay Thang Long - Luxury Hotel in Hanoi",
+  title: "Noble Palace Tay Thang Long - Branded Residences in Hanoi",
   description: "Experience luxury and elegance at Noble Palace Tay Thang Long. Premium accommodations in the heart of Hanoi with exceptional service and modern amenities.",
-  keywords: "luxury hotel, Hanoi, Tay Thang Long, accommodations, Vietnam, premium service",
+  keywords: "residences, Hanoi, Tay Thang Long, accommodations, Vietnam, premium service",
   authors: [{ name: "Noble Palace Tay Thang Long" }],
   openGraph: {
-    title: "Noble Palace Tay Thang Long - Luxury Hotel in Hanoi",
+    title: "Noble Palace Tay Thang Long - Branded Residences in Hanoi",
     description: "Experience luxury and elegance at Noble Palace Tay Thang Long. Premium accommodations in the heart of Hanoi with exceptional service and modern amenities.",
     type: "website",
   },
