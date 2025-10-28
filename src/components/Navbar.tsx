@@ -47,16 +47,16 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Phone Contact - Mobile Only */}
-          <div className="md:hidden ml-auto mr-2">
+            {/* Phone Contact - Always Visible */}
+            <div className="ml-auto mr-2 md:mr-4">
             <a
               href="tel:0984704988"
-              className="flex items-center text-yellow-100 hover:text-yellow-300 transition-colors duration-300 font-medium text-sm whitespace-nowrap"
+              className="flex items-center text-yellow-100 hover:text-yellow-300 transition-colors duration-300 font-medium text-sm md:text-base whitespace-nowrap"
             >
-              <span className="mr-1">☏</span>
+              <span className="mr-1 md:text-lg">☏</span>
               <span>0984 704 988</span>
             </a>
-          </div>
+            </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:block">
