@@ -22,18 +22,26 @@ export default function TienDo() {
             <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-amber-500 mx-auto mb-8"></div>
           </div>
 
-          {/* Video Section */}
-          <div className="flex justify-center rounded-xl overflow-hidden shadow-lg border-2 border-yellow-400 hover:shadow-2xl transition-shadow duration-300 mb-16">
-            <iframe
-              width="100%"
-              height="600"
-              src="https://www.youtube.com/embed/YJyx845nrms"
-              title="Noble Palace Tây Thăng Long - Tiến Độ Xây Dựng"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-              className="max-w-sm"
-            ></iframe>
-          </div>
+            {/* Video Section */}
+            <div className="mt-16 bg-white rounded-2xl shadow-xl border border-yellow-200 overflow-hidden">
+            <div className="bg-gradient-to-r from-amber-600 to-yellow-500 px-8 py-6">
+              <h2 className="text-2xl sm:text-3xl font-bold text-white text-center">
+              VIDEO CẬP NHẬT TIẾN ĐỘ XÂY DỰNG
+              </h2>
+            </div>
+            <div className="p-8">
+              <div className="aspect-video w-full">
+              <iframe 
+                className="w-full h-full rounded-lg"
+                src="https://www.youtube.com/embed/VTlOYNVLVOU?si=9KW7QW3acu-PTDmv" 
+                title="YouTube video player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowFullScreen
+              />
+              </div>
+            </div>
+            </div>
 
           {/* Call to Action */}
           <div className="mt-16 text-center">
