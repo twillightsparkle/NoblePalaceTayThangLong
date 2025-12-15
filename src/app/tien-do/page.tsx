@@ -33,7 +33,7 @@ export default function TienDo() {
               <div className="aspect-video w-full">
               <iframe 
                 className="w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/VTlOYNVLVOU?si=9KW7QW3acu-PTDmv" 
+                src="https://www.youtube.com/embed/SM34XyU5JnM?si=pcBYx6KqLnUBBaIM" 
                 title="YouTube video player" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerPolicy="strict-origin-when-cross-origin" 
