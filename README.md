@@ -3,7 +3,7 @@
 A luxury hotel website built with Next.js and configured for GitHub Pages deployment.
 
 ## 🌐 Live Site
-Visit: https://twillightsparkle.github.io/NoblePalaceTayThangLong/
+Visit: https://noblepalacetaythanglong.info/
 
 ## 🌟 Features
 
